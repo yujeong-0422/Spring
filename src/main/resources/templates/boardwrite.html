@@ -19,7 +19,7 @@
     }
 
     .layout textarea {
-        width: 100px;
+        width: 100%;
         margin-top: 10px;
         min-height: 300px;
     }
@@ -27,10 +27,10 @@
 <body>
 
     <div class="layout">
-        <form action="/board/writePro" method="post">
-        <input type="text">
-        <textarea name="content"></textarea>
-        <button type="submit">작성</button>
+        <form action="/board/writepro" method="post">
+            <input type="String" name ="title">
+            <textarea name="content"></textarea>
+            <button type="submit">작성</button>
         </form>
     </div>
 </body>
