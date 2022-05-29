@@ -19,5 +19,10 @@ public class Board {
 
     private String content;
 
+    //git pull test용 메소드
+    public void gitTest(){
+
+        System.out.println("신유정 바보");
+    }
 
 }
