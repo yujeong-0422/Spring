@@ -12,12 +12,16 @@ import javax.persistence.Id;
 public class Board {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
 
     private String title;
 
     private String content;
+
+    private String filename;
+
+    private String filepath;
 
     //git pull test용 메소드
     public void gitTest(){
